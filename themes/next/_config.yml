@@ -66,7 +66,7 @@ footer:
   icon:
     # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
     # `heart` is recommended with animation in red (#ff0000).
-    name: heart         # user
+    name: fas fa-heartbeat         # user
     # If you want to animate the icon, set it to true.
     animated: true      # false
     # Change the color of icon, using Hex Code.
@@ -495,7 +495,7 @@ valine:
   appkey: rAtUIg89jE4kUUCSgG4NCX2o # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: ＞ω＜来丫,聊两句丫~ # comment box placeholder
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊! # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
