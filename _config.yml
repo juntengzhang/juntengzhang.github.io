@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.juntengzhang.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -80,8 +80,10 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/juntengzhang/juntengzhang.github.io.git
   branch: master
+  repo: 
+    github: https://github.com/juntengzhang/juntengzhang.github.io.git
+    coding: https://git.coding.net/juntengzhang/juntengzhang.git
 
 #Live2D
 #npm install hexo-helper-live2d --save
@@ -103,3 +105,9 @@ live2d:
         height: 250
     mobile:
         show: true
+
+#生成sitemap
+baidusitemap:
+    path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
